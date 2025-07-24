@@ -26,11 +26,17 @@ In our program, arithmetic operators are used to calculate the average marks of 
 These operators are used to compare two values. The result of the comparison is either true or false.
 
 == : Equal to
+
 != : Not equal to
+
 < : Less than
+
 > : Greater than
+
 <= : Less than or equal to
+
 >= : Greater than or equal to
+
 For example, we use them to check the range of average marks to assign grades.
 
 3. Logical Operators
@@ -49,28 +55,42 @@ Example: average = (m1 + m2 + m3 + m4 + m5) / 5;
 Conditional statements allow us to make decisions in a program. They execute different blocks of code depending on whether a condition is true or false. In this assignment, we’ve used:
 
 if
+
 else if
+
 else
+
 These help guide the program flow based on inputs, such as checking if a number is positive or negative, or determining the quadrant of a coordinate.
 
 # Summary of Programs
 # 1. Grade Calculator
 This program takes marks of five subjects from the user, calculates the average, and displays the corresponding grade using if-else conditions.
 
-SampleOutput Enter marks of subject 1: 56
+SampleOutput 
+
+Enter marks of subject 1: 56
+
 Enter marks of subject 2: 78
+
 Enter marks of subject 3: 98
+
 Enter marks of subject 4: 65
+
 Enter marks of subject 5: 45
+
 Average: 68.4
+
 The grade is: C
 
 
-Key Concepts Used:
+# Key Concepts Used:
 
 Arithmetic operations
+
 Average calculation
+
 Multiple if-else blocks
+
 Relational and logical operators
 
 
@@ -78,13 +98,17 @@ Relational and logical operators
 This simple program checks whether the entered number is positive, negative, or zero using conditional logic.
 
 SampleOutput
+
 Enter a number: -98
+
 The number is negative
 
- Key Concepts Used:
+# Key Concepts Used:
 
 Basic condition checking
+
 if-else structure
+
 Use of comparison operators
 
 # 3. Quadrant Locator
@@ -95,11 +119,13 @@ Value of x is: -12
 Value of y is: -12
 (x,y) is in 3rd Quadrant
 
-Concepts Used:
+# Key Concepts Used:
 
 Compound conditions using &&
+
 Multiple else if branches
+
 Understanding real-world geometry through logic
 
 # Conclusion
-This assignment helped me get comfortable with using different types of operators and conditional statements in C++. By writing small programs that mirror real-life logic (like grading, checking number signs, or coordinate analysis), I got hands-on practice in building decision-based code — which is a foundational skill in programming.
+This assignment gave me practical experience with operators and conditional statements in C++. Writing simple programs based on real-life logic—like grading or analyzing coordinates—helped me understand how decision-making works in code.
